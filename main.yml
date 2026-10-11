@@ -1,0 +1,8 @@
+name: Test Action
+on: [push, workflow_dispatch]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f3003368@ds.study.iitm.ac.in
+        run: echo "Verified student email step"
